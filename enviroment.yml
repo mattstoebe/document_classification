@@ -1,0 +1,23 @@
+name: document-tagger             # any name you like
+channels:
+  - conda-forge
+dependencies:
+  
+  - python=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  
+  - tensorflow=2.16
+  - keras
+  - sentencepiece
+
+  - jupyterlab
+  - matplotlib
+  - seaborn
+  - ipywidgets
+ 
+  - black
+  - statsmodels
+  - pip:
+    - keras-nlp==0.8.1

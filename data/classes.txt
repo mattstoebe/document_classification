@@ -1,0 +1,8 @@
+geopolitical_issues
+epidemics_and_pandemics
+natural_disasters
+financial_distress
+financial_success
+investments
+labor_workforce_compliance_human_rights
+supplychain
