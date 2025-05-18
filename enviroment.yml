@@ -1,4 +1,4 @@
-name: document-tagger             # any name you like
+name: document-tagger
 channels:
   - conda-forge
 dependencies:
@@ -16,8 +16,11 @@ dependencies:
   - matplotlib
   - seaborn
   - ipywidgets
- 
   - black
   - statsmodels
+  - xgboost
+  - lightgbm
+  - pip
   - pip:
     - keras-nlp==0.8.1
+    - sentence_transformers
