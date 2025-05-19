@@ -1,26 +1,32 @@
 name: document-tagger
 channels:
   - conda-forge
-dependencies:
-  
-  - python=3.10
-  - pandas
-  - numpy
-  - scikit-learn
-  
-  - tensorflow=2.16
-  - keras
-  - sentencepiece
+  - defaults
 
-  - jupyterlab
+dependencies:
+  # Core
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
   - matplotlib
   - seaborn
+  - statsmodels
   - ipywidgets
   - black
-  - statsmodels
+  - jupyterlab
+
+  - pytorch=2.3.*
+  - transformers=4.40.*
+  - sentence-transformers=2.7.*
+
+  - tensorflow=2.16.*
+  - sentencepiece
+
   - xgboost
   - lightgbm
+
   - pip
   - pip:
-    - keras-nlp==0.8.1
-    - sentence_transformers
+      - scikit-multilearn
+
